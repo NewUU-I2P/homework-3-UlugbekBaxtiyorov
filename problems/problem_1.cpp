@@ -1,4 +1,7 @@
-double problemSolution1(float water) {
+double problemSolution1(float water) 
+{
+    if(water==0)
+        return 0;
     float cost=13.0;
     int array[3]={30,20,10};
     double cos[4]={0.4,0.12,1.4,1.5};
@@ -9,7 +12,7 @@ double problemSolution1(float water) {
          else
              cost+=cos[count]*array[count];
         water-=array[count];
-        if(water<0)
+        if(water<=0)
             break;
     }
     if(water>0)
