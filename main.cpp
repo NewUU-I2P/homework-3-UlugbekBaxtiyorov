@@ -10,9 +10,10 @@ using namespace std;
 int main() {
     cout << "Problem 1\n";
     double x,y,z;
-    cin>>x>>y;
+    cin>>x;
     cout<<problemSolution1(x)<<endl;
-    cout<<problemSolution1(y)<<endl;
+    cin>>x;
+    cout<<problemSolution1(x)<<endl;
     cout << "Problem 2\n";
     cin>>x>>y>>z;
     cout<<"The maximum number is "<<problemSolution2(x,y,z)<<endl;
