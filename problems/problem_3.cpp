@@ -3,18 +3,18 @@ using namespace std;
 string problemSolution3(float height, char S) {
     if(S=='M')
     {
-        if(height<170.0)
+        if(height<1.7)
             return "Short";
-        else if(height>185.0)
+        else if(height>1.85)
             return "Tall";
         else
             return "Normal";
     }
     else
     {
-        if(height<160.0)
+        if(height<1.6)
             return "Short";
-        else if(height>175.0)
+        else if(height>1.75)
             return "Tall";
         else
             return "Normal";
