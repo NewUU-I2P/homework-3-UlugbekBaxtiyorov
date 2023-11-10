@@ -11,13 +11,13 @@ int main() {
     cout << "Problem 1\n";
     double x,y,z;
     cin>>x>>y;
-    cout<<problemSolution1(55)<<endl;
-    cout<<problemSolution1(29.9)<<endl;
+    cout<<problemSolution1(x)<<endl;
+    cout<<problemSolution1(y)<<endl;
     cout << "Problem 2\n";
     cin>>x>>y>>z;
-    cout<<"The maximum number is "<<problemSolution2(34.9,34.5,34.2)<<endl;
+    cout<<"The maximum number is "<<problemSolution2(x,y,z)<<endl;
     cin>>x>>y>>z;
-    cout<<"The maximum number is "<<problemSolution2(89,45,1982)<<endl;
+    cout<<"The maximum number is "<<problemSolution2(x,y,z)<<endl;
     cout << "Problem 3\n";
     char s;
     cin>>x;
