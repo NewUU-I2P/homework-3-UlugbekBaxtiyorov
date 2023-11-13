@@ -11,9 +11,9 @@ int main() {
     cout << "Problem 1\n";
     double x;
     cin>>x;
-    problemSolution1(x);
+    cout<<problemSolution1(x)<<endl;
     cin>>x;
-    problemSolution1(x);
+    cout<<problemSolution1(x)<<endl;
     cout << "Problem 2\n";
     cin>>x>>y>>z;
     cout<<"The maximum number is "<<problemSolution2(x,y,z)<<endl;
