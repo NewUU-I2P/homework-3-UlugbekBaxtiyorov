@@ -1,4 +1,4 @@
-void problemSolution1(float water) 
+float problemSolution1(float water) 
 {
     float cost;
 
